@@ -1,0 +1,32 @@
+{
+  "name": "sample-polymer",
+  "version": "0.0.0",
+  "homepage": "",
+  "authors": [
+    "abdurrahman <abdur.rahman@lochbridge.com>"
+  ],
+  "description": "sample app using Google Polymer",
+  "main": "index.html",
+  "moduleType": [
+    "es6",
+    "globals"
+  ],
+  "keywords": [
+    "sample",
+    "app",
+    "polymer",
+    "ihu"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2"
+  }
+}

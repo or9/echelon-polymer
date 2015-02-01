@@ -1,0 +1,18 @@
+<link rel="import" href="/bower_components/polymer/polymer.html"/>
+
+<polymer-element name="tab-element">
+	<template>
+	<span>{{ title }}</span>
+	</template>
+
+	<script>
+		Polymer({
+			title: "Some text tab",
+			ready: ready
+		});
+
+		function ready() {
+			this.$.el.textContent = this.title + " is ready!";
+		}
+	</script>
+</polymer-element>
